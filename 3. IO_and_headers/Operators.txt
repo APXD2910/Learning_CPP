@@ -1,0 +1,44 @@
+ARITHMETIC OPERATORS
+This contains +, - , *, /, %
+
+/ returns integer value
+4/5 gives 0
+
+Increment and decrement Operators
+If value of a is 4;
+a++ = Here a becomes 5 after printing
+a-- = Here a becomes 3 after printing
+++a = Here a becomes 5 before printing
+--a = Here a becomes 3 before printing
+
+
+
+
+ASSIGNMENT OPERATORS
+= is the assignment operator 
+int a = 4;
+char as = "C";
+
+
+
+COMPARISION OPERATORS
+int a = 4, b = 5;
+
+(a == b) (False)
+Here it is necessary to use Paranthesis ()
+(a < b) (True)
+(a > b) (False)
+(a >= b) (False)
+(a <= b) (True)
+(a != b) (True)
+
+
+
+
+
+
+LOGICAL OPERATORS
+1- if both are True, && is True
+2- if even one is True, || is True
+3- in not operator, it reverses it all
+   (!(a==b)) returns True
