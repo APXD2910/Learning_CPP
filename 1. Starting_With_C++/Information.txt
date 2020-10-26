@@ -1,0 +1,11 @@
+#include <iostream>
+enhances the finctionality of the program. It is called a header file.
+It helps the input and output of the program.
+
+
+int main()
+This is the basic of the c++ prgram. All the code goes inside this
+
+cout << "Hello world\n";
+All the lines end with ;
+
