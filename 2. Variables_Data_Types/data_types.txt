@@ -1,0 +1,56 @@
+A variavble is a container to store data
+Variables can be of sofferent types like
+1) Int
+2) Float
+3) Char (1 byte)
+4) Double
+5) Boolean
+
+
+To define a Variable
+int sum = 34;
+This defines a Variable 'sum' with the value 34
+
+
+We can also define multiple Variables
+int a=4, char letter=6;
+
+
+Like in python, here also there are global and local variables
+
+
+
+
+
+
+VARIABLE SCOPE
+Local variables: Theu are declared inside the curly braces if a finction and cannot be accesed from 
+                 anywhere else
+Global variables: Theya re defines outside a function and can be accesed form anywhere
+
+
+Global and Local variables can have the same name in the program
+
+
+
+
+
+DATA TYPES
+There are 3 types of data types:
+1) Built-in 
+2) User-Defined
+3) Derived
+
+
+
+Built-in 
+They are the things like int, float, double, boolean and Char
+
+
+
+User-Defined
+They contain struct, Union and enum
+
+
+Derived Data types
+Array, Functions and Pointer are in these type.
