@@ -20,6 +20,9 @@ int a = 4;
 char as = "C";
 
 
++= , -=, *=, /=    are normal like in python
+
+
 
 COMPARISION OPERATORS
 int a = 4, b = 5;
@@ -42,3 +45,89 @@ LOGICAL OPERATORS
 2- if even one is True, || is True
 3- in not operator, it reverses it all
    (!(a==b)) returns True
+
+
+
+
+
+
+BITWISE OPERATORS
+& OPERATOR 
+0 & 1 will give 0 
+1 & 0 will give 0 
+1 & 1 will give 1 
+0 & 0 will give 0 
+
+
+OR OPERATOR
+0 & 1 will give 1 
+1 & 0 will give 1 
+1 & 1 will give 1 
+0 & 0 will give 0 
+
+XOR OPERATOR
+0 & 1 will give 1 
+1 & 0 will give 1 
+1 & 1 will give 0
+0 & 0 will give 0 
+
+
+ONES COMPLEMENT OPERATOR
+0 will give 1
+1 will give 0 
+
+LEFT SHIFT OPERATOR
+4 << 1
+(0100)
+=1000
+
+RIGHT SHIFT
+4 >> 1
+(0100)
+=0010
+
+
+
+a << n = a*2^n
+a >> n = a/2^n
+
+
+
+
+
+
+MISCELLANEOUS OPERATOR
+sizeof() => it gives the size of a particular variable, int is 4 bytes
+
+Condition>?x:y    =>
+
+
+example:
+
+int a = 10;
+int b = 5;
+
+int c = a>b?a-b:b-a
+
+It is basically a if else statement
+
+
+
+
+
+Cast  => Changes from one data type to another data type
+char charac = 'a';
+int(charac)
+cout << charac;
+It will print ascii value o a which is 97
+
+
+
+
+
+
+&      =>  Returns the address of a variable
+
+
+
+*        => Pointer to a variable     
