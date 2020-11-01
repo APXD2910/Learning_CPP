@@ -1,0 +1,14 @@
+Syntac of a function is:
+
+returnType functionName (parameter1, parameter2, ....){
+    //function body
+}
+
+
+Any function can be called from any other function
+
+
+
+STACK FRAME
+The things can only be added on top (called pushed)  or removed from the top 
+(called popped)
