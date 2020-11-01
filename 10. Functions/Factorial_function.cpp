@@ -1,5 +1,7 @@
 #include<iostream>
 
+/*This was not in the video but I did it anyways, so...*/
+
 using namespace std;
 
 int factorial(int num1){
