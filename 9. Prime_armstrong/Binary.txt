@@ -1,0 +1,52 @@
+This is lecture 5.1
+
+Binary is in base 2 while normal is called decimal and is of base 10
+
+
+
+CONVERSION
+EX 45
+
+divide by 2 and store quotient (123)
+remainder % 2  and store it also
+
+continue till u get quotient == 0
+and the number will be Binary (look at it from down to up)
+
+ex- 45
+
+Number      Quoteint(N/2)      Remainder(N%2)
+45              22                  1
+22              11                  0
+11              5                   1
+5               2                   1
+2               1                   0
+1               0                   1
+
+
+So 45 in Binary is 101101
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BINARY TO DECIMAL
+ex - 101101
+just multiply the digits to their respective powers of 2
+
+
+1*2^0 + 0*2^1 + 1*2^0 + 1*2^0+ 0*2^4 + 1*2^5 
+So answer is 45
