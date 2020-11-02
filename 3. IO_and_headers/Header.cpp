@@ -12,6 +12,6 @@
 using namespace std;
 
 int main(){
-    cout << "This is a simple Hello World Program"
+    cout << "This is a simple Hello World Program";
     return 0;
 }

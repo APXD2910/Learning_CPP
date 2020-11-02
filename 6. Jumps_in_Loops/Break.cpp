@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int pocketMoney=3000;
-    for (int date = 1, date <= 30, date++){
+    for (int date = 1; date <= 30; date++){
         if (pocketMoney==0);{
             break;
         }

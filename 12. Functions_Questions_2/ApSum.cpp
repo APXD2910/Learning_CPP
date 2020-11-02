@@ -9,7 +9,8 @@ void Calculate(int number){
 }
 
 int main(){
-    cout << "Enter a number: ";
+    cout << "This program will print he sum of all the numbers up to a given number\n ";
+    cout << "Enter your number: ";
     int n;
     cin >> n;
 

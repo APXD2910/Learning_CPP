@@ -12,7 +12,7 @@ int main(){
     float pi = 3.14;
     char c = 'u';
     bool is_false = false;
-    long double e = 12.33
+    long double e = 12.33;
     cout << "This is tutorial 4.\nValue of a is "<<a<<".\nThe value of b is "<<b;
     cout << "\nThe value of pi is "<<pi;
     cout << "\nThe value of c is "<<c;
