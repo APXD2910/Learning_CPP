@@ -1,13 +1,33 @@
 #include<iostream>
 
+// ! Make the code better
+// TODO: Search google for how to find maximum of 3 numbers
+
 using namespace std;
 
-bool pytha(int max; int n2; int n3){
-    if(max*max = n2*n2 + n3*n3){
+bool check(int num1, int num2, int num3){
+    int a = max(num1, max(num2, num3));
+    int b,c;
+
+    if(a==num1){
+        b = num2;
+        c = num3;
+    }
+    if(a == num2){
+        b = num1;
+        c = num3;
+    }
+    else{
+        b = num1;
+        c = num2;
+    }
+
+
+    if(a*a == b*b + c*c){
         return true;
     }
     else{
-    return false;
+        return false;
     }
 }
 
@@ -17,30 +37,12 @@ int main(){
     cout << "Enter the numbers: ";
     int a, b, c, max, other, other2;
     cin >> a >> b >> c;
-    if(a>b){
-        if(a>c){
-            max = a;
-            other = b;
-            other2 = c;
-        }
-    }
-    else if(b>c){
-        if(b>a){
-            max = b;
-            other = a;
-            other2 = c;
-        }
+
+    if(check(a, b, c)){
+        cout << "It is a pythagorean triplet";
     }
     else{
-        max = c;
-        other = a;
-        other = b;
-    }
-    if(pytha(max, other, other2)){
-        cout << "They form a pythagorean triplet";
-    }
-    else{
-        cout << "They do not form a pythagorean triplet";
+        cout << "Not a pythagorean triplet";
     }
     return 0;
 }
