@@ -1,7 +1,7 @@
 # Learning C++
-#### This is me learning c++ through a youtube course by aman dhattarwal and CodeWithHarry.
+#### This is me learning c++ through a youtube course by Aman Dhattatwal.
 
-#### I have saved the notes of each of the lectures by aman dhattarwal's channel 'Apna College' in  a folder called "0. NOTES".
+#### I have saved the notes of each of the lectures by Aman Dhattarwal's channel 'Apna College' in  a folder called "0. NOTES".
 
 
 ## Please check out Aman Dhattarwal's YouTube channel 'Apna College'
