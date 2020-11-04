@@ -1,0 +1,22 @@
+SPACE COMPLEXITY
+
+Space complexity of an algorithm quantifies the amount of time taken
+by a program to run as a function of the length of the input. It is
+directly proportional to the largest memory your program acquires at
+any instanct during run time.
+
+Running time should be minimum and size should be less
+
+int n;
+cin >> n;
+a = 0;
+for(int i=1; i<=n; i++){
+    a += 1;
+}
+
+- Here we can see that there are 3 int variables and integer variables
+  have a size of 4 bytes. So it's space complexity is 12 bytes.
+- We can say that space complexity is independent of the input.
+
+Suppose we have an array of size n:
+int arr[n];
