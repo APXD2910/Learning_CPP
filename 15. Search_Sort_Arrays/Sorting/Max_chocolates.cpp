@@ -5,6 +5,7 @@
 
 // To make this a little difficult, let us assume that we do not know number of ruppes 
 // that we have and we have to write code for it
+// This is very very easy problem
 
 #include<iostream>
 using namespace std;
