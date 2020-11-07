@@ -10,5 +10,7 @@
 - This is the link to his [playlist of c++](https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ) for placement preparation and for competitive programing
 - Hell, his videos don't even have ads in them.
 
-### Though it might seem that I am sponsered or I am promoting his channel, but it is nothing like that.
+### Though it might seem that I am sponored or I am promoting his channel, but it is nothing like that.
 ### I'm just a huge fan of his work.
+
+### Please feel free to open a pull request if you find any mistake with my code
