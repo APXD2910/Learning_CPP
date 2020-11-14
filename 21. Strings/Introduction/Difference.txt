@@ -1,0 +1,11 @@
+Difference between Character Arrays and Strings
+
+Character Arrays
+1) Need to know size beforehand
+2) Larger size required for operations(concatenate and append)
+3) No terminating Character
+
+Strings
+1) No Need to know size beforehand
+2) Comparititvely easier to do operations
+3) Special terminating Character '\0'
