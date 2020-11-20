@@ -1,5 +1,5 @@
 # Learning C++
-#### This is me learning c++ through a youtube course by Aman Dhattatwal.
+#### This is a repository containg the notes, pdfs, codes, and basically everything that was taught in the C++ YouTube course by Aman Dhattatwal.
 
 #### I have saved the notes of each of the lectures by Aman Dhattarwal's channel 'Apna College' in  the respective folders for them.
 
