@@ -11,7 +11,6 @@ int euclid(int n1,int n2){
 }
 
 int main(){
-    // This one is very cool. I didn't know such a brilliant algo existed
     int n1, n2;
     cin >> n1 >> n2;
     cout << euclid(n1, n2) << endl;
