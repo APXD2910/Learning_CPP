@@ -29,7 +29,6 @@ void dutch(int arr[], int n){
             high--;
         }
     }
-    
 }
 
 int main(){
