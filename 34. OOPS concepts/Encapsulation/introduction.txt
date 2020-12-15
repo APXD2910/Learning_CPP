@@ -1,0 +1,27 @@
+These are some comments for future refernece
+To acheive encapsulation in C++, we use classes.
+
+
+In every class, there are:
+1) data members
+2) member functions
+We can use both these things both in the function and outside the function
+and also in an inhertited class
+
+So to control this flow of access, we use access modifiers.
+There are 3 types of access modifiers:
+1) Public
+--> Objects can access the data members and function outside
+    the class also and also in  a derived class
+
+2) Private
+--> We can access the data members inside the class ONLY
+
+3) Protected
+--> This is just like private but we can use the data members
+    in a derived/inhertited class also
+
+
+ADVANTAGES OF ENCAPSULATION
+- Good Coding practice, useful in interviews
+- Increased security of data
