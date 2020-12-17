@@ -1,0 +1,19 @@
+POLYMORPHISM TYPES
+
+1) Compile Time
+  - Function Overloading
+  - Operator Overloading
+2) Run Time
+  - Virtual Functions
+
+
+Function Overloading
+When there are different functions with the same name but not
+the same function or with different arguments
+
+Operator Overloading
+When we define a different function to a pre-defined function
+like +, -, * etc.
+
+Virtual Functions
+We put virtual keyword in the base class and it is called virtual function
