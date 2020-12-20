@@ -78,6 +78,36 @@ bool search(node* head, int key){
     return false;
 }
 
+void deleteAtHead(node* &head){
+    node* todelete = head;
+    head = head->next;
+
+    delete todelete;
+}
+
+void deleteNode(node* &head, int val){
+    // Special Case if there is no data in linked list
+    if(head==NULL){
+        return;
+    }
+
+    // If there is only one node in the linked list
+    if(head->next == NULL){
+        deleteAtHead(head);
+        return;
+    }
+
+    node *temp = head;
+
+    while (temp->next->data != val){
+        temp = temp->next;
+    }
+    // Deletion Node
+    node*todelete = temp->next;
+    temp->next = temp->next->next;
+    delete todelete;
+}
+
 int main(){
     node* head=NULL;
     int n;
@@ -93,5 +123,11 @@ int main(){
     print_ll(head);
 
     cout << search(head, 6) << "\n";
+
+    deleteNode(head, 3);
+    print_ll(head);
+
+    deleteAtHead(head);
+    print_ll(head);
     return 0;
 }
